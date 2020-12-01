@@ -6,7 +6,7 @@ https://raw.githubusercontent.com/mohanchaz/helm/master/index.yaml
 ```
 ### Add repo 
 ```
-helm repo add reponame https://raw.githubusercontent.com/mohanchaz/helm/master/
+helm repo add <reponame> https://raw.githubusercontent.com/mohanchaz/helm/master/
 ```
 
 ### List helm repo
@@ -15,20 +15,20 @@ helm repo list
 ``
 ### Remove repo
 `
-helm repo remove reponame
+helm repo remove <reponame>
 `
 ### To install chart in dry run from git repo
 ```
-helm install reles moha/mychart --debug --dry-run
+helm install <name> moha/mychart --debug --dry-run
 ```
 ### To install chart from git repo
 ```
-helm install reles moha/mychart --debug --dry-run
+helm install <name> moha/mychart --debug --dry-run
 ```
 ### To remove installed chart
 
 ``
-helm delete name
+helm delete <name>
 ``
 ### List installed charts
 ``
