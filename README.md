@@ -9,7 +9,7 @@ https://raw.githubusercontent.com/mohanchaz/helm/master/index.yaml
 helm repo add https://raw.githubusercontent.com/mohanchaz/helm/master/
 ```
 
-### List helm
+### List helm repo
 ``
 helm repo list
 ``
@@ -29,6 +29,10 @@ helm install reles moha/mychart --debug --dry-run
 
 ``
 helm delete name
+``
+### List installed charts
+``
+helm ls
 ``
 
 
