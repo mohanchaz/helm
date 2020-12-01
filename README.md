@@ -1,17 +1,14 @@
 # helm
 
-### To add git repo
+### Sample git repo URL
 ```
 https://raw.githubusercontent.com/mohanchaz/helm/master/index.yaml
 ```
-### To install chart in dry run from git repo
+### Add repo 
 ```
-helm install reles moha/mychart --debug --dry-run
+helm repo add https://raw.githubusercontent.com/mohanchaz/helm/master/
 ```
-### To install chart from git repo
-```
-helm install reles moha/mychart --debug --dry-run
-```
+
 ### List helm
 ``
 helm repo list
@@ -20,5 +17,20 @@ helm repo list
 `
 helm repo remove reponame
 `
-### Add repo 
+### To install chart in dry run from git repo
+```
+helm install reles moha/mychart --debug --dry-run
+```
+### To install chart from git repo
+```
+helm install reles moha/mychart --debug --dry-run
+```
+### To remove installed chart
+
+``
+helm delete name
+``
+
+
+
 
