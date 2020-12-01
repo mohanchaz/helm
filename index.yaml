@@ -9,6 +9,6 @@ entries:
     name: mychart
     type: application
     urls:
-    - mohanchaz/helm/blob/master/Packages/mychart-0.1.0.tgz
+    - Packages/mychart-0.1.0.tgz
     version: 0.1.0
 generated: "2020-11-27T15:11:25.3991664+05:30"
