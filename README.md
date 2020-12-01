@@ -6,7 +6,7 @@ https://raw.githubusercontent.com/mohanchaz/helm/master/index.yaml
 ```
 ### Add repo 
 ```
-helm repo add https://raw.githubusercontent.com/mohanchaz/helm/master/
+helm repo add reponame https://raw.githubusercontent.com/mohanchaz/helm/master/
 ```
 
 ### List helm repo
